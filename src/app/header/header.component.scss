@@ -1,0 +1,22 @@
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    color: palegreen;
+    border: none;
+    background: none;
+    outline: none;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    cursor: pointer;
+}
+.btn{
+    border: 2px solid palegreen;
+    color: palegreen;
+}
+.btn:hover{
+    background: whitesmoke;
+    color: black;
+    border: 2px solid;
+}

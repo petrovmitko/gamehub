@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 no-gutters" *ngFor="let x of commonService.arr">
+            <img class="game-name" src="{{x.game}}" alt="">
+            <div class="platform">
+                <img class="platform-img" src="{{ x.platformURL }}" alt="">
+            </div>
+            <div class="btn-area">
+                <button class="view">VIEW</button>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="bottom">
+                <div class="title" [ngClass]="x.platform">
+                    <div class="display-6">{{ x.name }}</div>
+                </div>
+                <div class="price">{{ x.price }} лв.</div>   
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,115 @@
+.no-gutters{
+    border: 1px solid white;
+    border-radius: 30% 50% 31% 69% / 52% 22% 78%; 
+    background: rgb(26, 207, 162);
+    text-align: center;
+    height: 16rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.no-gutters:hover{
+    background: rgb(33, 182, 145);
+}
+.game-name{
+    width: 100px;
+    height: 140px;
+    margin-top: -100px;
+    margin-left: 20px;
+    z-index: 10;
+    border-radius: 6px;
+}
+.bottom{
+    width: 100%;
+    height: 120px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.btn-area{
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    right: 6px;
+    z-index: 19;
+}
+.view, .buy{
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.view{
+    background: greenyellow;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.buy{
+    background: rgb(50, 143, 205);
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 4px;
+}
+.price{
+    margin-top: 20px;
+    color: ghostwhite;
+    font-family: 'Audiowide', cursive;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+.title{
+    color: white;
+    width: 200px;
+    margin-top: 36px;
+    border-radius: 6px;
+}
+.platform{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.platform-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.XBOX{
+    background: #018A00;
+}
+.PS4{
+    background: #004098;
+}
+.PC{
+    background: #000000;
+}
+.Nintendo{
+    background: #F20000;
+}
+@media only screen and (max-width: 1200px) {
+    .buy, .view{
+        font-size: 14px;
+    }
+    .bottom{
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .no-gutters{
+        margin-left: 20px;
+        margin-right: 30px;
+        border-radius: 10px;
+    }
+}
