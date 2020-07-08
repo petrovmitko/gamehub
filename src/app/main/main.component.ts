@@ -10,6 +10,7 @@ export class MainComponent implements OnInit {
   constructor(private commonService: CommonService) { }
 
   ngOnInit() {
+
   }
   
 }
